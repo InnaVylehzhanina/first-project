@@ -1,0 +1,95 @@
+body {
+    color: #40514E;
+    text-align: left;
+    font-family: 'Merriweather Sans', sans-serif;
+    
+  }
+  
+  main {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto; 
+  }
+  h1 {
+    color: #66BFBF;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #11999E;
+  }
+  
+  p {
+    line-height: 2;
+  }
+  
+  a {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+  color: #EAF6F6;
+  }
+  
+  hr {
+    width: 4%;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    margin: 100px auto;
+  }
+  
+ 
+  
+  .top-container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .item{
+    flex-grow: 4;
+    align-self: flex-end; 
+  }
+
+  .middle-container {
+  margin: 100px 0;
+  }
+  
+  .bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    text-align: center;
+  }
+  
+  
+  .container {
+    display: grid;
+    margin: 5rem auto;
+    width: min(90%, 75rem);
+    grid-auto-flow: row;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 45em) {
+    .container {
+      grid-auto-flow: column;
+    }
+  }
+   
